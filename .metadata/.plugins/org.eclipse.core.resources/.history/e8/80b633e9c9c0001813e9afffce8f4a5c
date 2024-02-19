@@ -1,0 +1,13 @@
+
+public class stringType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+				String fName = "Harry";
+				String lName = "Morgan";
+				String name = fName + lName;
+				
+				
+	}
+
+}

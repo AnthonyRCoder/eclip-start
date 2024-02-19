@@ -1,0 +1,57 @@
+import java.util.Scanner;
+
+public class ifStatment {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println(" Please enter your score" );
+		
+		int score = sc.nextInt();
+		sc.close();
+		if(score >= 70){
+			
+			System.out.println("grade is A ");
+			
+		}
+		else if(score >= 60 && score <=69){
+			
+			System.out.println("grade is B");
+		}
+		else if(score >=50 && score <=59){
+		
+		System.out.println("grade is C);");
+		
+		}
+		else
+		{	
+			System.out.println("fail");
+		}
+	
+		{
+		Scanner so = new Scanner(System.in);
+		
+		System.out.println(" Please enter odd number" );
+		
+		int score1 = sc.nextInt();
+		sc.close();
+		if(score1 % 2 == 0){
+			
+			System.out.println(" even number");
+			
+		}else{
+			
+			System.out.println(" odd number");
+		}
+			
+		
+		
+		
+		
+		
+	}
+	
+
+}
